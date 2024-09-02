@@ -52,3 +52,13 @@ Installeer Postman en benader je endpoint.
 Tot nu toe hebben we gewerkt met een GET request. Omdat we nu Postman hebben, kunnen we ook een POST Request doen.
 Maak een methode die een boek retourneert met een POST request en controleer de werking met Postman.
 
+# 8 Een lijst in JSON
+We hebben gezien dat Spring Boot er voor zorgt dat je domein object automatisch wordt vertaald naar JSON.
+Dat is prettig en kan ook met een lijst.
+Maak daarvoor een arraylist van book en vul deze met meerdere boeken.
+Retourneer deze lijst via een nieuw endpoint.
+Doe dit zowel met een GET als met een POST
+
+# 9 Kiezen van een item uit een lijst
+Maak nu een methode die een boek retourneert uit deze lijst op basis van een van de attributen.
+Doe ook dit via een GET en een POST request.
